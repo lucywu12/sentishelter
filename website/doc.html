@@ -12,7 +12,6 @@
         font-family: "Raleway", sans-serif;
         background-color: #A3BBAD;
         margin: 0;
-        height: 100vh; /* Full viewport height */
         display: flex; /* Enable flexbox */
         justify-content: center; /* Center content horizontally */
         align-items: center; /* Center content vertically */
@@ -36,12 +35,64 @@
           host_url="http://localhost:7860"
         ></langflow-chat>
     </div>
+    <div class=" container container0">
+        
+        <img src="logo-removebg.png" class="small-image">
+        <p>
+            Climate change has a major impact on the housing market, such as increasing insurance rates, 
+            making some homes unsustainable due to natural disasters, and financial distress for borrowers.
+            Talk to our chatbot to learn more about Reddit's opinion on climate change during 2010-2022!
+        </p>
+    </div>
 
-    <h1>Technica ✖ Fannie Mae</h1>
-    <p>
-        Climate change has a major impact on the housing market, such as increasing insurance rates, 
-        making some homes unsustainable due to natural disasters, and financial distress for borrowers.
-        Talk to our chatbot to learn more about Reddit's opinion on climate change during 2010-2022!
-    </p>
+    <div class="container container1">
+        <h1>Guiding Questions for the Bot</h1>
+        <p>Ask me anything! Let's talk about climate change and the Reddit Climate Change Dataset.</p>
+        <p>Part 1</p>
+        <ul>
+            <li>What are the monthly average sentiments for the reddit comments in the dataset?</li>
+            <li>What does the dataset tell us about temporal trends?</li>
+        </ul>
+        <p>Part 2</p>
+        <ul>
+            <li>What is the average sentiment for comments that include the top persons mentioned?</li>
+            <li>Which persons in the dataset are strongly associated with extreme sentiment? Who are they?</li>
+            <li>What is the average sentiment for comments that include the top locations mentioned?</li>
+            <li>Which locations in the dataset are strongly associated with extreme sentiment?</li>
+
+        </ul>
+        <p>Part 3</p>
+        <ul>
+            <li>What are the top topic clusters from the data and their averages?</li>
+            <li>Do any of the keywords connect with housing market?</li>
+            <li>What does this tell us about consumer confidence in housing sector?</li>
+
+        </ul>
+    </div>
+
+    <!-- Second Container -->
+    <div class="container container2">
+        <h1>Charted Data</h1>
+        <h2>Monthly average sentiment</h2>
+        <img src="avgsentimentmonths.png">
+        <p>Let's compare Jan 2010 and Jan 2020</p>
+        <div class="image-container">
+            <img src="avgsentimentjav.png" >
+            <img src="avgsentimentjan2020.png" >
+          </div>
+        <hr>
+        <h2>Top 50 most frequently mentioned persons</h2>
+        <img src="avgsentiment50.png">
+        <img src="freq50names.png">
+        <hr>
+        <h2>Top 50 most frequently mentioned locations</h2>
+        <img src="avgsentimentloc.png">
+        <img src="freq50names2.png">
+        <hr>
+        <h2>Topic clusters data</h2>
+        <img src="topic.png">
+
+
+    </div>
 </body>
 </html>
