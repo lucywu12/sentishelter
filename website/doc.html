@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Technica 2023</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<style>
+    body {
+        font-family: "Raleway", sans-serif;
+        background-color: #A3BBAD;
+        margin: 0;
+        height: 100vh; /* Full viewport height */
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        flex-direction: column; /* Stack child elements vertically */
+        padding-left: 7%; /* Padding on the left side */
+        padding-right: 35%; /* Padding on the right side */
+    }
+</style>
+<body>
+
+    <script async src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@main/dist/build/static/js/bundle.min.js"></script>
+    <!-- chat_inputs: Stringified JSON with all the input keys and its values. The value of the key that is defined
+    as chat_input_field will be overwritten by the chat message.
+    chat_input_field: Input key that you want the chat to send the user message with. -->
+    <div class="chat-widget-wrapper">
+        <langflow-chat
+          window_title="Technica 2023 Fannie Mae Chat"
+          flow_id="bf06af8e-e976-42d8-93fd-731d68fce267"
+          chat_inputs='{"text":""}'
+          chat_input_field="text"
+          host_url="http://localhost:7860"
+        ></langflow-chat>
+    </div>
+
+    <h1>Technica ✖ Fannie Mae</h1>
+    <p>
+        Climate change has a major impact on the housing market, such as increasing insurance rates, 
+        making some homes unsustainable due to natural disasters, and financial distress for borrowers.
+        Talk to our chatbot to learn more about Reddit's opinion on climate change during 2010-2022!
+    </p>
+</body>
+</html>
